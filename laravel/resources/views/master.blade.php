@@ -27,5 +27,13 @@
             padding-top: 100px;
             
         }
+        img.custom-login{
+            height: 400px; !important
+        }
+        .custom-produc{
+
+            height: 600px;
+        }
+        
     </style>
 </html>
