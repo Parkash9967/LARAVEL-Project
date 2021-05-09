@@ -14,9 +14,6 @@ class User extends Authenticatable
     /**
      * The attributes that are mass assignable.
      * the cammand for image
-     * npm install -g http-server
-     * http-server ./
-     *
      * @var array
      */
     protected $fillable = [
