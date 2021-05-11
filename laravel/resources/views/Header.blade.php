@@ -43,7 +43,7 @@ if (Session::has('user'))
             </ul>
           </li>
           @else
-          <li><a href="/login"></a></li>
+          <li><a href="/login">Log In</a></li>
           @endif
         </ul>
       </div><!-- /.navbar-collapse -->
