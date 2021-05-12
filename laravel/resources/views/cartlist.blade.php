@@ -27,7 +27,7 @@
                  </div>
                 @endforeach 
              </div>
-             <a class="btn btn-success" href="ordernow" >Order Now</a><br> <br>
+             
        </div>
     </div>  
 @endsection

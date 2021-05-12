@@ -24,13 +24,11 @@
     <style>
         .custom-login{
             height: 500px;
-            padding-top: 100px;
-            
+            padding-top: 100px;        
         }
-      
         img.slider-img{
-           height: 400px;
-        }
+        height: 400px !important
+         }
         .custom-product {
 
             height: 800px
@@ -43,10 +41,11 @@
         }
         .trending-item{
             float: left;
-            width: 15%;
+            width: 20%;
         }
         .trending-wrapper{
-            margin: 30px;
+            margin: 20px;
+            
         }
         .detail-img{
             height: 200px;
