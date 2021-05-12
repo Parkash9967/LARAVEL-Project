@@ -23,14 +23,12 @@ if (Session::has('user'))
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
           <li class="active"><a href="#">Home</a></li>
+          @if(Session::has('user'))
           <li><a href="/myorders">Orders</a></li>
-        
-        </ul>
-        <form class="navbar-form navbar-left">
-          <div class="form-group">
-            <input type="text" class="form-control" placeholder="Search">
-          </div>
-          <button type="submit" class="btn btn-default">Submit</button>
+          @else
+          <li><a href="/login">Orders</a></li> 
+          @endif       
+        </ul>          
         </form>
         <ul class="nav navbar-nav navbar-right">
           <li><a href="/cartlist">Cart({{$total}})</a></li>

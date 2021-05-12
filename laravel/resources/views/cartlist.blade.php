@@ -26,6 +26,7 @@
                   </div>
                  </div>
                 @endforeach 
+                <a href="/">Go Back </a>
              </div>
              
        </div>

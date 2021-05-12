@@ -39,6 +39,9 @@
                 <button type="submit" class="btn btn-default">Order Now</button>
               </form>
           </div>
+          
+          <br><br>
+          <a href="/cartlist">Go Back </a>
      </div>
 </div>
 @endsection
